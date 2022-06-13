@@ -1,11 +1,10 @@
 import "./App.css";
+import HomePage from "./Pages/HomePage";
 
 function App() {
     return (
         <>
-            <h3 className="text-orange-700 text-center mt-10 uppercase">
-                hello react
-            </h3>
+            <HomePage />
         </>
     );
 }
