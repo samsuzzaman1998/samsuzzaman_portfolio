@@ -9,12 +9,12 @@
         "_id": 2,
         "serviceName": "Frontend Development",
         "icon": "fa-solid fa-crop",
-        "serviceDes": "The sites that are created are made fully responsive so that they can be seen on all devices. This makes the UI of the site visitors better"
+        "serviceDes": "Creating an API-based site that means only Frontend Development is also done by using Html, CSS, JS, React, and other libraries and frameworks that are required"
     },
     {
         "_id": 3,
         "serviceName": "Fullstack Development",
         "icon": "fa-solid fa-code",
-        "serviceDes": "The sites that are created are made fully responsive so that they can be seen on all devices. This makes the UI of the site visitors better"
+        "serviceDes": "A complete website is also be done with powerful unctionalities by using Html, CSS, JS, React, MongoDB, and Express, with some lightweight and popular frameworks and libraries, according to the requirment"
     }
 ]
