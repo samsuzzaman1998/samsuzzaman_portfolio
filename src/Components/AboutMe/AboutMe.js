@@ -30,7 +30,7 @@ const AboutMe = () => {
                             new every day and I enjoy learning something new.
                         </p>
                         {/* infos */}
-                        <ul class="menu menu-vertical justify-between w-full md:menu-horizontal bg-base-100 rounded-box heading_6">
+                        <ul className="menu menu-vertical justify-between w-full md:menu-horizontal bg-base-100 rounded-box heading_6">
                             <div>
                                 <li className="mb-2 md:mb-1 block">
                                     <span className="inline p-0 pr-1 font-semibold text-secondary">

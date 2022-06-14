@@ -1,0 +1,26 @@
+[
+    {
+        "_id": 1,
+        "skills": [
+            { "_id": 1, "title": "html", "skillValue": "70%" },
+            { "_id": 2, "title": "css", "skillValue": "80%" },
+            { "_id": 3, "title": "bootstrap", "skillValue": "50%" }
+        ]
+    },
+    {
+        "_id": 2,
+        "skills": [
+            { "_id": 1, "title": "JavaScript", "skillValue": "70%" },
+            { "_id": 2, "title": "React", "skillValue": "80%" },
+            { "_id": 3, "title": "Tailwind", "skillValue": "50%" }
+        ]
+    },
+    {
+        "_id": 3,
+        "skills": [
+            { "_id": 1, "title": "Express", "skillValue": "70%" },
+            { "_id": 2, "title": "MongoDb", "skillValue": "80%" },
+            { "_id": 3, "title": "Github", "skillValue": "50%" }
+        ]
+    }
+]
