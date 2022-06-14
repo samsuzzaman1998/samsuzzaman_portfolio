@@ -36,8 +36,8 @@ const Navbar = () => {
         </>
     );
     return (
-        <nav className={`navbar-wrapper z-50 `} ref={navbarRef}>
-            <div id="navbar" className={`${scrollValue ? "sticky-nav" : ""}`}>
+        <nav className={`navbar-wrapper`} ref={navbarRef}>
+            <div id="navbar" className={`${scrollValue ? "sticky_nav" : ""}`}>
                 {/* navbar content goes here */}
                 <div className="navbar bg-primary text-base-100 lg:px-16 px-6">
                     <div className="navbar-start">

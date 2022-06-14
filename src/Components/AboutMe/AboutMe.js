@@ -9,8 +9,8 @@ const AboutMe = () => {
                 titleDes="To know properly About Me"
             />
 
-            <div className="hero ">
-                <div className="hero-content flex-col lg:flex-row lg: justify-center">
+            <div className="hero3">
+                <div className="flex  flex-col lg:flex-row lg: justify-center">
                     <img
                         src="https://api.lorem.space/image/movie?w=260&h=400"
                         className="max-w-sm rounded-full lg:rounded-lg shadow-2xl lg:mr-10"
@@ -30,7 +30,7 @@ const AboutMe = () => {
                             new every day and I enjoy learning something new.
                         </p>
                         {/* infos */}
-                        <ul className="menu menu-vertical justify-between w-full md:menu-horizontal bg-base-100 rounded-box heading_6">
+                        <ul className="flex flex-col justify-between w-full md:flex-row heading_6">
                             <div>
                                 <li className="mb-2 md:mb-1 block">
                                     <span className="inline p-0 pr-1 font-semibold text-secondary">

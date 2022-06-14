@@ -4,6 +4,7 @@ import Hero from "../Components/Hero/Hero";
 import MyServices from "../Components/MyServices/MyServices";
 import MySkills from "../Components/MySkills/MySkills";
 import Navbar from "../Components/Navbar/Navbar";
+import Testing from "../Components/Testing";
 
 const HomePage = () => {
     return (
@@ -13,6 +14,7 @@ const HomePage = () => {
             <MyServices />
             <AboutMe />
             <MySkills />
+            <Testing />
         </>
     );
 };

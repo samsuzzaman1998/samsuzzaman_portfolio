@@ -14,7 +14,7 @@ Google font
     font-family: "Poppins", sans-serif;
 }
 
-.content {
+/* .content {
     padding: 16px;
 }
 
@@ -26,7 +26,7 @@ Google font
 
 .sticky + .content {
     padding-top: 60px;
-}
+} */
 
 /* ==============
     Common CSS
