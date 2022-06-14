@@ -1,5 +1,6 @@
 import React from "react";
 import AboutMe from "../Components/AboutMe/AboutMe";
+import Contact from "../Components/ContactMe/Contact";
 import Hero from "../Components/Hero/Hero";
 import MyPortfolio from "../Components/MyPortfolio/MyPortfolio";
 import MyServices from "../Components/MyServices/MyServices";
@@ -16,6 +17,7 @@ const HomePage = () => {
             <AboutMe />
             <MySkills />
             <MyPortfolio />
+            <Contact />
             <Testing />
         </>
     );
