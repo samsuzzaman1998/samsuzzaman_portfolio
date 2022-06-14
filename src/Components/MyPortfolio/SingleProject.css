@@ -1,0 +1,6 @@
+.project_card {
+    padding: 2rem 1rem;
+    border-radius: 8px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2), -5px 5px 8px rgba(0, 0, 0, 0.2);
+    height: 100%;
+}
