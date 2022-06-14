@@ -49,7 +49,7 @@ const Navbar = () => {
                 </Link> */}
                         <a
                             href="/"
-                            className=" s_brand uppercase text-xl sm:text-4xl text-neutral font-semibold tracking-wider "
+                            className=" s_brand uppercase heading_2 font-bold text-base-100 tracking-wider "
                         >
                             S
                         </a>
@@ -77,7 +77,7 @@ const Navbar = () => {
                             </label>
                             <ul
                                 tabIndex="0"
-                                className="menu menu-compact dropdown-content mt-5 p-2 shadow w-60 bg-primary"
+                                className="menu menu-compact dropdown-content mt-2 sm:mt-2 p-2 shadow w-60 bg-primary"
                             >
                                 {menuItems}
                                 {/* {userInfo} */}
