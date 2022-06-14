@@ -1,5 +1,5 @@
-.testimonial_shadow {
-    padding: 2rem 1rem;
+.form_shadow {
+    padding: 2rem 2rem;
     border-radius: 6px;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2), -5px 5px 8px rgba(0, 0, 0, 0.2);
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import "./contact.css";
 import SecTitle from "../SecTitle/SecTitle";
+import Slider from "react-slick";
 
 const Contact = () => {
     return (
@@ -8,25 +9,9 @@ const Contact = () => {
             <SecTitle titleName="contact" titleDes="To get in touch with me" />
 
             {/* main */}
-            <div className="container_row flex justify-between">
-                {/* Review Part */}
-                <div className="testimonial md:w-2/5 ">
-                    <h4 className="heading_4 capitalize font-bold text-secondary">
-                        Client's reviews
-                    </h4>
-                    <div className="mt-10 w-full ">
-                        <div class="card testimonial_shadow">
-                            content goes here
-                        </div>
-                    </div>
-                </div>
-
-                {/* Form Part */}
-                <div className="contact_form md:w-2/5">
-                    <h4 className="heading_4 capitalize font-bold text-secondary text-center">
-                        contact me
-                    </h4>
-                    <div className="form_container w-full mt-8">
+            <div className="container_row flex justify-center">
+                <div className="contact_form w-11/12 max-w-xl">
+                    <div className="form_container w-full mt-8 form_shadow">
                         <form className="w-full">
                             {/* Input_Field */}
                             <div className="form-control w-full mb-4">
