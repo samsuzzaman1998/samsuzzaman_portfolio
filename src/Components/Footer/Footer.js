@@ -8,13 +8,13 @@ const Footer = () => {
     const socialItems = (
         <>
             <li className="capitalize font-light text-neutral text-xl ">
-                <i class="fa-brands fa-facebook px-2 text-lg"></i>
+                <i className="fa-brands fa-facebook px-2 text-lg"></i>
             </li>
             <li className="capitalize font-light text-neutral text-xl ">
-                <i class="fa-brands fa-twitter px-2 text-lg"></i>
+                <i className="fa-brands fa-twitter px-2 text-lg"></i>
             </li>
             <li className="capitalize font-light text-neutral text-xl">
-                <i class="fa-brands fa-github px-2 text-lg"></i>
+                <i className="fa-brands fa-github px-2 text-lg"></i>
             </li>
         </>
     );

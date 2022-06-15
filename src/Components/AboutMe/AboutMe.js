@@ -12,8 +12,8 @@ const AboutMe = () => {
             <div className="hero3">
                 <div className="flex  flex-col lg:flex-row lg: justify-center">
                     <img
-                        src="https://api.lorem.space/image/movie?w=260&h=400"
-                        className="max-w-sm rounded-full lg:rounded-lg shadow-2xl lg:mr-10"
+                        src="https://api.lorem.space/image/movie?w=300&h=300"
+                        className="w-full max-w-xs rounded-full lg:rounded-lg shadow-2xl lg:mr-10"
                         alt="aboutme"
                     />
                     <div className="mt-6 lg:mt-0">

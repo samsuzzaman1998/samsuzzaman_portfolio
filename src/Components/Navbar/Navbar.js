@@ -40,13 +40,13 @@ const Navbar = () => {
     const socialItems = (
         <>
             <li className="capitalize font-light text-neutral text-xl ">
-                <i class="fa-brands fa-facebook px-1 text-lg"></i>
+                <i className="fa-brands fa-facebook px-1 text-lg"></i>
             </li>
             <li className="capitalize font-light text-neutral text-xl ">
-                <i class="fa-brands fa-twitter px-1 text-lg"></i>
+                <i className="fa-brands fa-twitter px-1 text-lg"></i>
             </li>
             <li className="capitalize font-light text-neutral text-xl">
-                <i class="fa-brands fa-github px-1 text-lg"></i>
+                <i className="fa-brands fa-github px-1 text-lg"></i>
             </li>
         </>
     );
