@@ -17,6 +17,9 @@ Google font
 /* ==============
     Common CSS
 =================*/
+.light_shadow {
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2), -5px 5px 8px rgba(0, 0, 0, 0.2);
+}
 .heading_1 {
     font-size: calc(1.375rem + 1.5vw);
 }

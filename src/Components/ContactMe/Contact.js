@@ -11,7 +11,7 @@ const Contact = () => {
             {/* main */}
             <div className="container_row flex justify-center">
                 <div className="contact_form w-11/12 max-w-xl">
-                    <div className="form_container w-full mt-8 form_shadow">
+                    <div className="form_container w-full mt-8 form_shadow bg-neutral">
                         <form className="w-full">
                             {/* Input_Field */}
                             <div className="form-control w-full mb-4">

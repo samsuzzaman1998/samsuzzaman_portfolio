@@ -1,0 +1,22 @@
+[
+    {
+        "_id": 1,
+        "Question": "Will you upload the website to my hosting?",
+        "Answer": "Yes, if you want then I will upload your website to your hosting, all you need is the URL, Username, and the Password of the Hosting Control Panel."
+    },
+    {
+        "_id": 2,
+        "Question": "Will you support me even after the order is complete?",
+        "Answer": "Yes, I will definitely support you if there are any minor changes or problems with the codes."
+    },
+    {
+        "_id": 3,
+        "Question": "Do you providing domain and hosting?",
+        "Answer": "No, I don’t provide domain and hosting."
+    },
+    {
+        "_id": 4,
+        "Question": "Will you provide website contents?",
+        "Answer": "Sorry for that. Because this is against Fiverr TOS. If you don’t have the content of your website right now then I will provide the dummy image and contents."
+    }
+]
