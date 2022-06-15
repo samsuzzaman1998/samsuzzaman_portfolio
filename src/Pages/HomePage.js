@@ -2,6 +2,7 @@ import React from "react";
 import AboutMe from "../Components/AboutMe/AboutMe";
 import Contact from "../Components/ContactMe/Contact";
 import FAQ from "../Components/FAQ/FAQ";
+import Footer from "../Components/Footer/Footer";
 import Hero from "../Components/Hero/Hero";
 import MyPortfolio from "../Components/MyPortfolio/MyPortfolio";
 import MyServices from "../Components/MyServices/MyServices";
@@ -20,6 +21,7 @@ const HomePage = () => {
             <MyPortfolio />
             <Contact />
             <FAQ />
+            <Footer />
         </>
     );
 };

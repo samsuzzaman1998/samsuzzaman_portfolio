@@ -24,17 +24,33 @@ const Navbar = () => {
 
     const menuItems = (
         <>
-            <li className="capitalize font-light text-neutral text-xl mb-3 lg:mb-0 lg:mr-4">
+            <li className="capitalize font-light text-neutral text-lg mb-3 lg:mb-0 lg:mr-4">
                 item1
             </li>
-            <li className="capitalize font-light text-neutral text-xl mb-3 lg:mb-0 lg:mr-4">
+            <li className="capitalize font-light text-neutral text-lg mb-3 lg:mb-0 lg:mr-4">
                 item1
             </li>
-            <li className="capitalize font-light text-neutral text-xl">
+            <li className="capitalize font-light text-neutral text-lg">
                 item1
             </li>
         </>
     );
+
+    // Social Links
+    const socialItems = (
+        <>
+            <li className="capitalize font-light text-neutral text-xl ">
+                <i class="fa-brands fa-facebook px-1 text-lg"></i>
+            </li>
+            <li className="capitalize font-light text-neutral text-xl ">
+                <i class="fa-brands fa-twitter px-1 text-lg"></i>
+            </li>
+            <li className="capitalize font-light text-neutral text-xl">
+                <i class="fa-brands fa-github px-1 text-lg"></i>
+            </li>
+        </>
+    );
+
     return (
         <nav className={`navbar-wrapper`} ref={navbarRef}>
             <div id="navbar" className={`${scrollValue ? "sticky_nav" : ""}`}>
@@ -75,19 +91,37 @@ const Navbar = () => {
                                     />
                                 </svg>
                             </label>
-                            <ul
+                            {/* <ul
                                 tabIndex="0"
                                 className="menu menu-compact dropdown-content mt-2 sm:mt-2 p-2 shadow w-60 bg-primary"
                             >
                                 {menuItems}
-                                {/* {userInfo} */}
-                            </ul>
+                            </ul> */}
+                            <div
+                                tabIndex="0"
+                                className="dropdown-content mt-2 sm:mt-2 p-2 shadow w-60 bg-primary"
+                            >
+                                <div className="justify-end items-center">
+                                    <ul className="menu menu-compact">
+                                        {menuItems}
+                                        {/* {userInfo} */}
+                                    </ul>
+                                    <ul className="menu menu-compact flex flex-row mt-3 justify-center">
+                                        {socialItems}
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                         {/* large menu */}
-                        <ul className="menu menu-horizontal p-0 hidden lg:flex ">
-                            {menuItems}
-                            {/* {userInfo} */}
-                        </ul>
+                        <div className="flex justify-end items-center">
+                            <ul className="menu menu-horizontal p-0 hidden lg:flex ">
+                                {menuItems}
+                                {/* {userInfo} */}
+                            </ul>
+                            <ul className="menu menu-horizontal p-0 hidden lg:flex lg:ml-4">
+                                {socialItems}
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
