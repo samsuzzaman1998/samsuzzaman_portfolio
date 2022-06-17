@@ -13,3 +13,5 @@ also try to describe all of my skills and some projects relates with my skills. 
 -   React Router-Dom
 -   Daisy UI
 -   Font Awsome
+-   Framer Motion
+-   React Intersection Obeserver

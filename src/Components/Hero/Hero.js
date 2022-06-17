@@ -1,5 +1,6 @@
 import React from "react";
 import "./hero.css";
+import { motion } from "framer-motion";
 
 const Hero = () => {
     return (
@@ -7,11 +8,16 @@ const Hero = () => {
             <div className="sec_container">
                 <div className="hero">
                     <div className="hero-content w-full flex-col justify-center">
-                        <img
-                            src="https://api.lorem.space/image/movie?w=300&h=300"
-                            className=" w-72 rounded-full lg:rounded-full shadow-2xl"
-                            alt="hero-text"
-                        />
+                        <motion.div
+                            animate={{ rotate: 360 }}
+                            transition={{ ease: "easeOut", duration: 2 }}
+                        >
+                            <img
+                                src="https://api.lorem.space/image/movie?w=300&h=300"
+                                className=" w-72 rounded-full lg:rounded-full shadow-2xl"
+                                alt="hero-text"
+                            />
+                        </motion.div>
                         <div className="lg:max-w-lg">
                             <h3 className="heading_3 font-semibold text-base-100 ">
                                 Hi, I am

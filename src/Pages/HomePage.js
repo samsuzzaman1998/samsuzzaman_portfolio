@@ -8,20 +8,39 @@ import MyPortfolio from "../Components/MyPortfolio/MyPortfolio";
 import MyServices from "../Components/MyServices/MyServices";
 import MySkills from "../Components/MySkills/MySkills";
 import Navbar from "../Components/Navbar/Navbar";
-import Testing from "../Components/Testing";
+import ForAnimation from "../Components/ForAnimation/ForAnimation";
 
 const HomePage = () => {
     return (
         <>
-            <Hero />
-            <Navbar />
-            <MyServices />
-            <AboutMe />
-            <MySkills />
-            <MyPortfolio />
-            <Contact />
-            <FAQ />
-            <Footer />
+            <ForAnimation>
+                <Hero />
+                <Navbar />
+            </ForAnimation>
+            <ForAnimation>
+                {" "}
+                <MyServices />
+            </ForAnimation>
+            <ForAnimation>
+                {" "}
+                <AboutMe />
+            </ForAnimation>
+            <ForAnimation>
+                <MySkills />
+            </ForAnimation>
+            <ForAnimation>
+                <MyPortfolio />
+            </ForAnimation>
+            <ForAnimation>
+                <Contact />
+            </ForAnimation>
+            <ForAnimation>
+                {" "}
+                <FAQ />
+            </ForAnimation>
+            <ForAnimation>
+                <Footer />
+            </ForAnimation>
         </>
     );
 };
